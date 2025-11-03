@@ -1,0 +1,29 @@
+{% extends "terminimal/templates/index.html" %}
+
+{%- block title -%}
+{{ title_macros::title(page_title=section.title, main_title=config.title) }}
+{%- endblock -%}
+
+{% block content %}
+    <div class="post">
+        <h1 class="post-title">{{ section.title }}</h1>
+
+        {%- if section.content %}
+        <div class="post-content">
+            {{ section.content | safe }}
+        </div>
+        {% endif -%}
+
+        {%- if section.pages %}
+        <div class="posts">
+            <h2>Posts</h2>
+            {%- for page in section.pages %}
+                <div class="post on-list">
+                    {{ post_macros::header(page=page) }}
+                    {{ post_macros::content(page=page, summary=true, show_only_description=page.extra.show_only_description | default(value=false)) }}
+                </div>
+            {% endfor -%}
+        </div>
+        {% endif -%}
+    </div>
+{% endblock content %}

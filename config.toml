@@ -15,11 +15,13 @@ highlight_theme = "base16-ocean-dark"
 author = "Pushpinder Singh"
 logo_text = "pushpinder singh"
 footer_text = "Engineering Lead • Unity 3D • Rust • VR/Multiplayer"
+copyright_html = "© 2025 Pushpinder Singh"
 
-accent_color = "blue"
+accent_color = "pink"
+background_color = "dark"
 use_full_hack_font = false
 
-menu = [
+menu_items = [
     { name = "about", url = "/about" },
     { name = "experience", url = "/experience" },
     { name = "projects", url = "/projects" },

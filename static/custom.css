@@ -1,0 +1,21 @@
+/* Custom Dracula-inspired color scheme */
+:root {
+  /* Dracula colors */
+  --accent: #bd93f9;              /* Dracula purple */
+  --accent-alpha-70: rgba(189, 147, 249, 0.7);
+  --accent-alpha-20: rgba(189, 147, 249, 0.2);
+
+  --background: #282a36;          /* Dracula background */
+  --color: #f8f8f2;               /* Dracula foreground */
+  --border-color: rgba(98, 114, 164, 0.3);
+}
+
+/* You can customize other Dracula colors here:
+ * --accent: #bd93f9 (purple)
+ * --accent: #ff79c6 (pink)
+ * --accent: #8be9fd (cyan)
+ * --accent: #50fa7b (green)
+ * --accent: #ffb86c (orange)
+ * --accent: #ff5555 (red)
+ * --accent: #f1fa8c (yellow)
+ */
