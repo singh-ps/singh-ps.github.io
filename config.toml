@@ -1,0 +1,27 @@
+base_url = "https://singh-ps.github.io"
+title = "Pushpinder Singh"
+description = "Engineering Lead | Unity 3D, Rust, VR & Multiplayer Systems"
+theme = "terminimal"
+
+compile_sass = true
+minify_html = true
+generate_feeds = true
+
+[markdown]
+highlight_code = true
+highlight_theme = "base16-ocean-dark"
+
+[extra]
+author = "Pushpinder Singh"
+logo_text = "pushpinder singh"
+footer_text = "Engineering Lead • Unity 3D • Rust • VR/Multiplayer"
+
+accent_color = "blue"
+use_full_hack_font = false
+
+menu = [
+    { name = "about", url = "/about" },
+    { name = "experience", url = "/experience" },
+    { name = "projects", url = "/projects" },
+    { name = "blog", url = "/blog" },
+]

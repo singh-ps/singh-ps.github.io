@@ -1,0 +1,10 @@
+# Zola build output
+public/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

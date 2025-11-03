@@ -1,1 +1,1 @@
-# pushpindersingh.dev
+singh-ps.github.io
